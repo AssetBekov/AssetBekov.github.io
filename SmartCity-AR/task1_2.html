@@ -8,7 +8,17 @@
         <a-scene embedded arjs>
             <!-- handle hiro marker -->
             <a-marker preset='hiro'>
-                    <a-sphere color="red" radius="0.1"></a-sphere> 
+                    <a-sphere color="red" radius="0.1">
+					<a-text 
+            value="Asset Bekov"
+            color="Black"
+            rotation="0 90 0"
+            scale="7, 7"
+            position="-2.5 4 0"
+            z-offset="3"
+            faceUser: true;>
+        </a-text></a-sphere> 
+					
             </a-marker>
 
             <!-- add a camera to the scene that renders the objects for us -->
